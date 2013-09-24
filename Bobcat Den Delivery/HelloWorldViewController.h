@@ -20,6 +20,7 @@
         BOOL bannerIsVisible;
     }
 
+// Did it work!?
 
     @property (copy, nonatomic) NSString *greetingName;
     @property (nonatomic, assign) BOOL bannerIsVisible;
