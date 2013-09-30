@@ -7,13 +7,19 @@
 //
 
 #import "HelloWorldAppDelegate.h"
-#import "Parse/Parse.h"
+#import <Parse/Parse.h>
+
 
 
 @implementation HelloWorldAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"1qa1Q99uSf8YmT6CWdkNVWNurHpTSl5kQz23Teuf"
+                  clientKey:@"3t0x6rgdeBjPDjy2Ab1vjBLnUqjfo1s6vQBePkGC"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
     // Register for push notifications
     [application registerForRemoteNotificationTypes:
      UIRemoteNotificationTypeBadge |
