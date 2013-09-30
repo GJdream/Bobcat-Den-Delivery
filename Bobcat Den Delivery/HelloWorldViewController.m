@@ -13,12 +13,15 @@
 
 
 @interface HelloWorldViewController ()
+
 @property (weak, nonatomic) IBOutlet ADBannerView *banner;
 @property (weak, nonatomic) IBOutlet UILabel *orderComplete;
 
 
+    @property (nonatomic, retain) IBOutlet UITextView *order;
+
     @property (nonatomic, retain) IBOutlet UITextField *name;
-    @property (nonatomic, retain) IBOutlet UITextField *order;
+
     @property (nonatomic, retain) IBOutlet UITextField *phoneNumber;
     @property (nonatomic, retain) IBOutlet UITextField *location;
 

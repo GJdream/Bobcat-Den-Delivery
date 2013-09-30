@@ -12,7 +12,7 @@
 
 
 
-@interface HelloWorldViewController : UIViewController <UITextFieldDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, ADBannerViewDelegate>
+@interface HelloWorldViewController : UIViewController <UITextFieldDelegate,UITextViewDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, ADBannerViewDelegate>
 
     {    
         NSMutableData *responseData;
