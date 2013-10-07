@@ -110,7 +110,7 @@
                                     <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" keyboardDismissMode="interactive" translatesAutoresizingMaskIntoConstraints="NO" id="bC0-Eg-T7k">
                                         <rect key="frame" x="32" y="247" width="256" height="73"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="tintColor" patternImage="77AFF059-5631-43C0-AD90-0C2717364243" colorSpace="pattern"/>
+                                        <color key="tintColor" patternImage="BDFD6B43-1A11-408C-B545-7586819CBCF0" colorSpace="pattern"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="256" id="2G6-Oe-Wnm"/>
                                             <constraint firstAttribute="height" constant="73" id="L40-Xx-LFV"/>
@@ -189,7 +189,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="denDeliveryMenu.png" translatesAutoresizingMaskIntoConstraints="NO" id="FQb-Rs-xi7">
-                                <rect key="frame" x="-15" y="-19" width="354" height="568"/>
+                                <rect key="frame" x="-5" y="-19" width="331" height="540"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
@@ -253,7 +253,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="77AFF059-5631-43C0-AD90-0C2717364243" width="256" height="256">
+        <image name="BDDFAQ.png" width="268" height="354"/>
+        <image name="BDFD6B43-1A11-408C-B545-7586819CBCF0" width="256" height="256">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -4642,8 +4643,7 @@ BAILAAQCEwAEAhYABAIbAAQCKgAEAi4ABAI1AAQCPQAEAkoABAJPAAQCUQAEAlMABAJYAAQCYAAEAmMA
 BAJoAAQCcAAEAnMABAKFAAQCiAAEAo0AAAAAAAAEAQAAAAAAAABCAAAAAAAAAAAAAAAAAAQCjw
 </mutableData>
         </image>
-        <image name="BDDFAQ.png" width="268" height="354"/>
-        <image name="denDeliveryMenu.png" width="458" height="613"/>
+        <image name="denDeliveryMenu.png" width="405" height="553"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
