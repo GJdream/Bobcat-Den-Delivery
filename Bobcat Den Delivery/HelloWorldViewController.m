@@ -69,17 +69,24 @@
 
 - (IBAction)placeOrder:(id)sender {
     
-    NSURL *nsURL = [[NSURL alloc] initWithString:@"https://docs.google.com/spreadsheet/formResponse?formkey=dFYzSTg0VHRuX2xOMkdFSUo3RzU2SXc6MQ&amp;theme=0AX42CRMsmRFbUy1jZTMyMWExMy03YmU0LTQ2OTUtODBhNC00YjhlMTBjZTc3MGY&amp;ifq"];
+    NSURL *nsURL = [[NSURL alloc] initWithString:@"http://0.0.0.0:3000/orders.json"];
     NSMutableURLRequest *nsMutableURLRequest = [[NSMutableURLRequest alloc] initWithURL:nsURL];
     
     // Set the request's content type to application/x-www-form-urlencoded
-    [nsMutableURLRequest setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [nsMutableURLRequest setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     
     // Set HTTP method to POST
     [nsMutableURLRequest setHTTPMethod:@"POST"];
     
     // Set up the parameters to send.
-    NSString *paramDataString = [NSString stringWithFormat:@"%@=%@&%@=%@&%@=%@&%@=%@&pageNumber=0&backupCache=",@"entry.0.single", _name.text, @"entry.1.single", _location.text, @"entry.4.single", _phoneNumber.text, @"entry.2.single", _order.text];
+    NSString *paramDataString = [NSString stringWithFormat:@"{
+                                 "order": {
+                                     "name": "%@",
+                                     "location": "%@",
+                                     "phone_number": "%@",
+                                     "food": "%@"
+                                 }
+                                 }", _name.text, _location.text, _phoneNumber.text, _order.text];
     
     // Encode the parameters to default for NSMutableURLRequest.
     NSData *paramData = [paramDataString dataUsingEncoding:NSUTF8StringEncoding];
@@ -94,6 +101,8 @@
     
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Order Recieved!" message:@"We'll be over with your delicious food as soon as we can." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
     [alert show];
+    
+    
     
 }
 
