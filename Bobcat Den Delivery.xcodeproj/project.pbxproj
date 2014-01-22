@@ -10,15 +10,18 @@
 		E71AAD4C17A76DCA0028A5B0 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E71AAD4B17A76DCA0028A5B0 /* Icon-72@2x.png */; };
 		E71AAD4E17A76E120028A5B0 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = E71AAD4D17A76E120028A5B0 /* Icon-57.png */; };
 		E74C062E17FA0CB300326313 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C062C17F7804D00326313 /* Parse.framework */; };
-		E74C062F17FA0CB800326313 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71AAD4F17AFC9300028A5B0 /* iAd.framework */; };
 		E74C063117FA0D8E00326313 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063017FA0D8E00326313 /* AudioToolbox.framework */; };
 		E74C063317FA0D9700326313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063217FA0D9700326313 /* CFNetwork.framework */; };
 		E74C063517FA0DCF00326313 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063417FA0DCF00326313 /* CoreLocation.framework */; };
 		E74C063717FA0DDF00326313 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063617FA0DDF00326313 /* libz.1.1.3.dylib */; };
 		E74C063917FA0DEA00326313 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063817FA0DEA00326313 /* MobileCoreServices.framework */; };
 		E74C063B17FA0DF600326313 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063A17FA0DF600326313 /* Security.framework */; };
-		E74C063D17FA0DFF00326313 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063C17FA0DFF00326313 /* StoreKit.framework */; };
 		E74C063F17FA0E0800326313 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74C063E17FA0E0800326313 /* SystemConfiguration.framework */; };
+		E76F335D18491D2800029F70 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = E76F335A18491D2800029F70 /* Icon-80.png */; };
+		E76F335E18491D2800029F70 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = E76F335B18491D2800029F70 /* Icon-58.png */; };
+		E76F335F18491D2800029F70 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = E76F335C18491D2800029F70 /* Icon-29.png */; };
+		E76F336118491E7500029F70 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = E76F336018491E7500029F70 /* Icon-120.png */; };
+		E76F3368184A94A700029F70 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76F3367184A94A700029F70 /* StoreKit.framework */; };
 		E792663B178E510D00C43AA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792663A178E510D00C43AA3 /* UIKit.framework */; };
 		E792663D178E510D00C43AA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792663C178E510D00C43AA3 /* Foundation.framework */; };
 		E792663F178E510D00C43AA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E792663E178E510D00C43AA3 /* CoreGraphics.framework */; };
@@ -35,14 +38,11 @@
 		E7ED132017B9D52600AE8FB0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7ED131D17B9D52600AE8FB0 /* Default@2x.png */; };
 		E7F6DFE017FC4992009A84FE /* denDeliveryMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F6DFDF17FC4992009A84FE /* denDeliveryMenu.png */; };
 		E7F6DFE217FC5658009A84FE /* BDDFAQ.png in Resources */ = {isa = PBXBuildFile; fileRef = E7F6DFE117FC5658009A84FE /* BDDFAQ.png */; };
-		E7F6DFE91801F429009A84FE /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F6DFE81801F429009A84FE /* MenuViewController.m */; };
-		E7F6DFEC1801F76B009A84FE /* FAQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F6DFEB1801F76B009A84FE /* FAQViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E71AAD4B17A76DCA0028A5B0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
-		E71AAD4D17A76E120028A5B0 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
-		E71AAD4F17AFC9300028A5B0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		E71AAD4B17A76DCA0028A5B0 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
+		E71AAD4D17A76E120028A5B0 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-57.png"; path = "../Icon-57.png"; sourceTree = "<group>"; };
 		E74C062C17F7804D00326313 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../../Desktop/Parse.framework; sourceTree = "<group>"; };
 		E74C063017FA0D8E00326313 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E74C063217FA0D9700326313 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -50,8 +50,12 @@
 		E74C063617FA0DDF00326313 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
 		E74C063817FA0DEA00326313 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		E74C063A17FA0DF600326313 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		E74C063C17FA0DFF00326313 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E74C063E17FA0E0800326313 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E76F335A18491D2800029F70 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-80.png"; path = "../../../../Desktop/Icon-80.png"; sourceTree = "<group>"; };
+		E76F335B18491D2800029F70 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-58.png"; path = "../../../../Desktop/Icon-58.png"; sourceTree = "<group>"; };
+		E76F335C18491D2800029F70 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "../../../../Desktop/Icon-29.png"; sourceTree = "<group>"; };
+		E76F336018491E7500029F70 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "../../../../Desktop/Icon-120.png"; sourceTree = "<group>"; };
+		E76F3367184A94A700029F70 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E7926637178E510D00C43AA3 /* Den Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Den Delivery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E792663A178E510D00C43AA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E792663C178E510D00C43AA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +68,8 @@
 		E7926659178E510D00C43AA3 /* HelloWorldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
 		E7A98B81179F4D4E00CA43F9 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = ../../../../Downloads/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		E7A98B82179F4D4E00CA43F9 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = ../../../../Downloads/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
-		E7A98B8417A7422600CA43F9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		E7A98B8617A742E300CA43F9 /* Icon-114 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114 .png"; sourceTree = "<group>"; };
+		E7A98B8417A7422600CA43F9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		E7A98B8617A742E300CA43F9 /* Icon-114 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-114 .png"; path = "../Icon-114 .png"; sourceTree = "<group>"; };
 		E7ED131317B9D4B100AE8FB0 /* Bobcat Den Delivery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Bobcat Den Delivery-Info.plist"; sourceTree = "<group>"; };
 		E7ED131617B9D4BC00AE8FB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7ED131817B9D4EB00AE8FB0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,12 +77,8 @@
 		E7ED131B17B9D52600AE8FB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E7ED131C17B9D52600AE8FB0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		E7ED131D17B9D52600AE8FB0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		E7F6DFDF17FC4992009A84FE /* denDeliveryMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = denDeliveryMenu.png; path = ../../../Desktop/denDeliveryMenu.png; sourceTree = "<group>"; };
-		E7F6DFE117FC5658009A84FE /* BDDFAQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BDDFAQ.png; path = ../../../Desktop/BDDFAQ.png; sourceTree = "<group>"; };
-		E7F6DFE71801F429009A84FE /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		E7F6DFE81801F429009A84FE /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		E7F6DFEA1801F76B009A84FE /* FAQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAQViewController.h; sourceTree = "<group>"; };
-		E7F6DFEB1801F76B009A84FE /* FAQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAQViewController.m; sourceTree = "<group>"; };
+		E7F6DFDF17FC4992009A84FE /* denDeliveryMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = denDeliveryMenu.png; path = ../../../../Desktop/denDeliveryMenu.png; sourceTree = "<group>"; };
+		E7F6DFE117FC5658009A84FE /* BDDFAQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BDDFAQ.png; path = ../../../../Desktop/BDDFAQ.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E74C063F17FA0E0800326313 /* SystemConfiguration.framework in Frameworks */,
-				E74C063D17FA0DFF00326313 /* StoreKit.framework in Frameworks */,
 				E74C063B17FA0DF600326313 /* Security.framework in Frameworks */,
 				E74C063917FA0DEA00326313 /* MobileCoreServices.framework in Frameworks */,
 				E74C063717FA0DDF00326313 /* libz.1.1.3.dylib in Frameworks */,
@@ -96,8 +95,8 @@
 				E74C063317FA0D9700326313 /* CFNetwork.framework in Frameworks */,
 				E74C063117FA0D8E00326313 /* AudioToolbox.framework in Frameworks */,
 				E74C062E17FA0CB300326313 /* Parse.framework in Frameworks */,
-				E74C062F17FA0CB800326313 /* iAd.framework in Frameworks */,
 				E792663B178E510D00C43AA3 /* UIKit.framework in Frameworks */,
+				E76F3368184A94A700029F70 /* StoreKit.framework in Frameworks */,
 				E792663D178E510D00C43AA3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,20 +107,6 @@
 		E792662E178E510D00C43AA3 = {
 			isa = PBXGroup;
 			children = (
-				E74C063E17FA0E0800326313 /* SystemConfiguration.framework */,
-				E74C063C17FA0DFF00326313 /* StoreKit.framework */,
-				E74C063A17FA0DF600326313 /* Security.framework */,
-				E74C063817FA0DEA00326313 /* MobileCoreServices.framework */,
-				E74C063617FA0DDF00326313 /* libz.1.1.3.dylib */,
-				E74C063417FA0DCF00326313 /* CoreLocation.framework */,
-				E74C063217FA0D9700326313 /* CFNetwork.framework */,
-				E74C063017FA0D8E00326313 /* AudioToolbox.framework */,
-				E71AAD4D17A76E120028A5B0 /* Icon-57.png */,
-				E71AAD4B17A76DCA0028A5B0 /* Icon-72@2x.png */,
-				E7A98B8617A742E300CA43F9 /* Icon-114 .png */,
-				E7A98B8417A7422600CA43F9 /* Icon-72.png */,
-				E7F6DFDF17FC4992009A84FE /* denDeliveryMenu.png */,
-				E7F6DFE117FC5658009A84FE /* BDDFAQ.png */,
 				E7926640178E510D00C43AA3 /* Bobcat Den Delivery */,
 				E7926639178E510D00C43AA3 /* Frameworks */,
 				E7926638178E510D00C43AA3 /* Products */,
@@ -139,8 +124,15 @@
 		E7926639178E510D00C43AA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E76F3367184A94A700029F70 /* StoreKit.framework */,
+				E74C063E17FA0E0800326313 /* SystemConfiguration.framework */,
+				E74C063A17FA0DF600326313 /* Security.framework */,
+				E74C063817FA0DEA00326313 /* MobileCoreServices.framework */,
+				E74C063617FA0DDF00326313 /* libz.1.1.3.dylib */,
+				E74C063417FA0DCF00326313 /* CoreLocation.framework */,
+				E74C063217FA0D9700326313 /* CFNetwork.framework */,
+				E74C063017FA0D8E00326313 /* AudioToolbox.framework */,
 				E74C062C17F7804D00326313 /* Parse.framework */,
-				E71AAD4F17AFC9300028A5B0 /* iAd.framework */,
 				E792663A178E510D00C43AA3 /* UIKit.framework */,
 				E792663C178E510D00C43AA3 /* Foundation.framework */,
 				E792663E178E510D00C43AA3 /* CoreGraphics.framework */,
@@ -156,13 +148,9 @@
 				E7926649178E510D00C43AA3 /* HelloWorldAppDelegate.h */,
 				E792664A178E510D00C43AA3 /* HelloWorldAppDelegate.m */,
 				E7926652178E510D00C43AA3 /* MainStoryboard_iPhone.storyboard */,
-				E7F6DFEA1801F76B009A84FE /* FAQViewController.h */,
-				E7F6DFEB1801F76B009A84FE /* FAQViewController.m */,
 				E7926655178E510D00C43AA3 /* MainStoryboard_iPad.storyboard */,
 				E7926658178E510D00C43AA3 /* HelloWorldViewController.h */,
 				E7926659178E510D00C43AA3 /* HelloWorldViewController.m */,
-				E7F6DFE71801F429009A84FE /* MenuViewController.h */,
-				E7F6DFE81801F429009A84FE /* MenuViewController.m */,
 				E7ED131217B9D48A00AE8FB0 /* Supporting Files */,
 			);
 			path = "Bobcat Den Delivery";
@@ -175,9 +163,19 @@
 				E7ED131517B9D4BC00AE8FB0 /* InfoPlist.strings */,
 				E7ED131317B9D4B100AE8FB0 /* Bobcat Den Delivery-Info.plist */,
 				E7ED131A17B9D50700AE8FB0 /* Bobcat Den Delivery-Prefix.pch */,
+				E71AAD4D17A76E120028A5B0 /* Icon-57.png */,
+				E71AAD4B17A76DCA0028A5B0 /* Icon-72@2x.png */,
+				E7A98B8617A742E300CA43F9 /* Icon-114 .png */,
+				E7A98B8417A7422600CA43F9 /* Icon-72.png */,
+				E7F6DFDF17FC4992009A84FE /* denDeliveryMenu.png */,
+				E7F6DFE117FC5658009A84FE /* BDDFAQ.png */,
 				E7ED131B17B9D52600AE8FB0 /* Default-568h@2x.png */,
 				E7ED131C17B9D52600AE8FB0 /* Default.png */,
 				E7ED131D17B9D52600AE8FB0 /* Default@2x.png */,
+				E76F336018491E7500029F70 /* Icon-120.png */,
+				E76F335A18491D2800029F70 /* Icon-80.png */,
+				E76F335B18491D2800029F70 /* Icon-58.png */,
+				E76F335C18491D2800029F70 /* Icon-29.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,6 +209,22 @@
 				CLASSPREFIX = HelloWorld;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Matthew Perejda";
+				TargetAttributes = {
+					E7926636178E510D00C43AA3 = {
+						DevelopmentTeam = PH57WG58YW;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = E7926632178E510D00C43AA3 /* Build configuration list for PBXProject "Bobcat Den Delivery" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -241,9 +255,13 @@
 				E7A98B8717A742E300CA43F9 /* Icon-114 .png in Resources */,
 				E71AAD4C17A76DCA0028A5B0 /* Icon-72@2x.png in Resources */,
 				E71AAD4E17A76E120028A5B0 /* Icon-57.png in Resources */,
+				E76F335F18491D2800029F70 /* Icon-29.png in Resources */,
 				E7ED131E17B9D52600AE8FB0 /* Default-568h@2x.png in Resources */,
+				E76F335D18491D2800029F70 /* Icon-80.png in Resources */,
 				E7ED131F17B9D52600AE8FB0 /* Default.png in Resources */,
 				E7ED132017B9D52600AE8FB0 /* Default@2x.png in Resources */,
+				E76F335E18491D2800029F70 /* Icon-58.png in Resources */,
+				E76F336118491E7500029F70 /* Icon-120.png in Resources */,
 				E7F6DFE217FC5658009A84FE /* BDDFAQ.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,11 +274,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E792664B178E510D00C43AA3 /* HelloWorldAppDelegate.m in Sources */,
-				E7F6DFEC1801F76B009A84FE /* FAQViewController.m in Sources */,
 				E792665A178E510D00C43AA3 /* HelloWorldViewController.m in Sources */,
 				E7A98B83179F4D4E00CA43F9 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				E7ED131917B9D4EB00AE8FB0 /* main.m in Sources */,
-				E7F6DFE91801F429009A84FE /* MenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +322,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -321,6 +338,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "CAAD2F3B-BC5B-48EB-92AA-01BCDE76AE04";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,7 +356,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -346,6 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CAAD2F3B-BC5B-48EB-92AA-01BCDE76AE04";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -355,6 +375,10 @@
 		E792665E178E510D00C43AA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Den Delivery.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Desktop\"",
@@ -363,6 +387,7 @@
 				GCC_PREFIX_HEADER = "Bobcat Den Delivery/Bobcat Den Delivery-Prefix.pch";
 				INFOPLIST_FILE = "Bobcat Den Delivery/Bobcat Den Delivery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FF259FC8-B1A5-4609-84A0-CDAD618E4FCD";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -371,6 +396,10 @@
 		E792665F178E510D00C43AA3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Den Delivery.entitlements";
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Desktop\"",
@@ -379,6 +408,7 @@
 				GCC_PREFIX_HEADER = "Bobcat Den Delivery/Bobcat Den Delivery-Prefix.pch";
 				INFOPLIST_FILE = "Bobcat Den Delivery/Bobcat Den Delivery-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FF259FC8-B1A5-4609-84A0-CDAD618E4FCD";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

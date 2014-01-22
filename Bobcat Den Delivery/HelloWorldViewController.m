@@ -14,22 +14,14 @@
 
 @interface HelloWorldViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *order;
-
-@property (weak, nonatomic) IBOutlet ADBannerView *banner;
 @property (weak, nonatomic) IBOutlet UILabel *orderComplete;
-
-
-
-
-    @property (nonatomic, retain) IBOutlet UITextField *name;
-
-    @property (nonatomic, retain) IBOutlet UITextField *phoneNumber;
-    @property (nonatomic, retain) IBOutlet UITextField *location;
+@property (nonatomic, retain) IBOutlet UITextField *name;
+@property (nonatomic, retain) IBOutlet UITextField *phoneNumber;
+@property (nonatomic, retain) IBOutlet UITextField *location;
 
 
 -(IBAction)textFieldDoneEditing:(id)sender;
 
--(IBAction)backgroundClick:(id)sender;
 
 
 - (IBAction)placeOrder:(id)sender;
@@ -38,12 +30,6 @@
     - (void)connection:(NSURLConnection *)nsUrlConnection didReceiveData:(NSData *)data;
     - (void)connectionDidFinishLoading:(NSURLConnection *)nsUrlConnection;
     - (void)connection:(NSURLConnection *)nsUrlConnection didFailWithError:(NSError *)error;
-
--(void)bannerViewDidLoadAd: (ADBannerView *) banner;
-
--(void)bannerView: (ADBannerView *) baner didFailToReceiveAdWithError:(NSError *)error;
-
-
 @end
 
 
@@ -83,7 +69,7 @@
 
 - (IBAction)placeOrder:(id)sender {
     
-    NSURL *nsURL = [[NSURL alloc] initWithString:@"https://docs.google.com/spreadsheet/formResponse?formkey=dFItSzN2bnNUS2M0T01sb1U5Zmp3RlE6MA&amp;theme=0AX42CRMsmRFbUy1jZTMyMWExMy03YmU0LTQ2OTUtODBhNC00YjhlMTBjZTc3MGY&amp;ifq"];
+    NSURL *nsURL = [[NSURL alloc] initWithString:@"https://docs.google.com/spreadsheet/formResponse?formkey=dFYzSTg0VHRuX2xOMkdFSUo3RzU2SXc6MQ&amp;theme=0AX42CRMsmRFbUy1jZTMyMWExMy03YmU0LTQ2OTUtODBhNC00YjhlMTBjZTc3MGY&amp;ifq"];
     NSMutableURLRequest *nsMutableURLRequest = [[NSMutableURLRequest alloc] initWithURL:nsURL];
     
     // Set the request's content type to application/x-www-form-urlencoded
@@ -105,10 +91,9 @@
     NSURLConnection *nsUrlConnection=[[NSURLConnection alloc]initWithRequest:nsMutableURLRequest delegate:self];
     
     // Order Completion Notification
-    NSString *greeting = [[NSString alloc] initWithFormat:@"Order Recieved! See you soon :)"];
     
-    self.orderComplete.text = greeting;
-    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Order Recieved!" message:@"We'll be over with your delicious food as soon as we can." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
     
 }
 
@@ -128,42 +113,6 @@
 - (void)connection:(NSURLConnection *)nsUrlConnection didFailWithError:(NSError *)error {
         NSLog(@"CONNECTION ERROR: %@", [error localizedDescription]);
 }
-
-
-
-
-//iAd
-
--(void)bannerViewDidLoadAd:(ADBannerView *)banner {
-    
-    [UIView beginAnimations:nil context:NULL];
-    
-    [UIView setAnimationDuration:1];
-    
-    [banner setAlpha:1];
-    
-    [UIView commitAnimations];
-    
-}
-
-
-
-- (void)bannerView:(ADBannerView *) banner didFailToReceiveAdWithError:(NSError *)error
-
-{
-    
-    [UIView beginAnimations:nil context:NULL];
-    
-    [UIView setAnimationDuration:1];
-    
-    [banner setAlpha:0];
-    
-    [UIView commitAnimations];
-    
-}
-
-
-
 
 @end
 

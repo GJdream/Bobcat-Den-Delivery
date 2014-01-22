@@ -8,22 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <iAd/iAd.h>
 
 
-
-@interface HelloWorldViewController : UIViewController <UITextFieldDelegate,UITextViewDelegate, UIScrollViewDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, ADBannerViewDelegate>
+@interface HelloWorldViewController : UIViewController <UITextFieldDelegate,UITextViewDelegate, UIScrollViewDelegate, NSURLConnectionDelegate, NSURLConnectionDataDelegate, UIAlertViewDelegate>
 
     {    
         NSMutableData *responseData;
-        ADBannerView *adView;
-        BOOL bannerIsVisible;
     }
 
-// Did it work!?
-
     @property (copy, nonatomic) NSString *greetingName;
-    @property (nonatomic, assign) BOOL bannerIsVisible;
 
 @end
 
