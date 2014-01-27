@@ -79,20 +79,13 @@
     [nsMutableURLRequest setHTTPMethod:@"POST"];
     
     // Set up the parameters to send.
-    NSString *paramDataString = [NSString stringWithFormat:@"{
-                                 "order": {
-                                     "name": "%@",
-                                     "location": "%@",
-                                     "phone_number": "%@",
-                                     "food": "%@"
-                                 }
-                                 }", _name.text, _location.text, _phoneNumber.text, _order.text];
+    NSString *jsonString = [NSString stringWithFormat:@"{ \"order\":{ \"name\":\"%@\", \"location\":\"%@\", \"phone_number\":\"%@\",  \"food\":\"%@\"}}", _name.text, _location.text, _phoneNumber.text, _order.text];
     
     // Encode the parameters to default for NSMutableURLRequest.
-    NSData *paramData = [paramDataString dataUsingEncoding:NSUTF8StringEncoding];
+    NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     
     // Set the NSMutableURLRequest body data.
-    [nsMutableURLRequest setHTTPBody: paramData];
+    [nsMutableURLRequest setHTTPBody: jsonData];
     
     // Create NSURLConnection and start the request.
     NSURLConnection *nsUrlConnection=[[NSURLConnection alloc]initWithRequest:nsMutableURLRequest delegate:self];
