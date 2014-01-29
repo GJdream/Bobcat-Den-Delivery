@@ -69,7 +69,7 @@
 
 - (IBAction)placeOrder:(id)sender {
     
-    NSURL *nsURL = [[NSURL alloc] initWithString:@"http://0.0.0.0:3000/orders.json"];
+    NSURL *nsURL = [[NSURL alloc] initWithString:@"http://bobcat-den-delivery.herokuapp.com/orders.json"];
     NSMutableURLRequest *nsMutableURLRequest = [[NSMutableURLRequest alloc] initWithURL:nsURL];
     
     // Set the request's content type to application/x-www-form-urlencoded
